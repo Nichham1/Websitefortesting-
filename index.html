@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TEST</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+	<header>
+		<h1 id="greet" class=""> WELCOME TO THE TEST AREA </h1>
+		<div class="custom-padding">
+			<nav>
+				<div class="logo">Logo</div>
+				<div id="tab">
+					<ul class="menu-area">
+							<li><a class="active" href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+			</nav>
+
+		</div>
+	</header>
+	<body id="body">
+
+			<div class="container">
+				<div class="jumbotron">
+					<div id="btcon"> 
+					<button id="bt1" type="button" class="btn btn-outline-primary">Click one</button>
+					<button id="bt2" type="button" class="btn btn-outline-primary">Click two</button>
+					<button id="bt3" type="button" class="btn btn-outline-primary">Click three</button>
+					</div>
+				</div>
+			</div>
+
+
+    <script>
+			
+			$(document).ready(function(){
+
+				$("#greet").fadeOut(3000).fadeIn(3000).fadeOut(3000).fadeIn(3000).fadeOut(3000).fadeIn(3000).;
+
+				$("#bt1").on("click",function(){
+					$("#greet").toggle(300);
+				});
+
+						});
+
+      
+
+    </script>
+
+  </body>
+
+	<footer>
+
+   <p>&copy; Incoperation with Techno and <a href="https://repl.it/">Repl.it</a> 2020<p>
+
+  </footer>
+
+</html>
